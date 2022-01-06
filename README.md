@@ -39,3 +39,17 @@ vi ~/.p10k.zsh
 Uncomment battery
 ```
 
+## Other Software
+
+### [Sublime Text](https://www.sublimetext.com/)
+
+```
+Enable subl command:
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+```
+#### Useful Sublime Text Packages
+- Package Control
+- Vim Mode
+- Markdown Preview
+- Markdown Formatting
+- JSON Formatter
