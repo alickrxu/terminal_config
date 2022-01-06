@@ -10,6 +10,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ## Provided Files
 ```
 .zshrc - Includes env variables, powerlevel10k setup
+.vimrc - VIM setup, includes linenumbers and highlighting
 Arthur.itermcolors - My preferred iterm2 theme
 ```
 
