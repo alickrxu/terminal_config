@@ -1,31 +1,31 @@
-#Setup instructions
+# Setup instructions
 
-##Install brew on zsh:
+## Install brew on zsh:
 	
 Add Homebrew to your PATH in `~/.zprofile`:
 ```
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
-##Provided Files
+## Provided Files
 ```
 .zshrc - Includes env variables, powerlevel10k setup
 Arthur.itermcolors - My preferred iterm2 theme
 ```
 
-##Packages
+## Packages
 
-###thefuck
+### thefuck
 
 ```brew install thefuck```
 
-###oh-my-zsh 
+### oh-my-zsh 
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-###Install [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+### Install [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
 ```
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
