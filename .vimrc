@@ -10,8 +10,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
-" Set color scheme
-colorscheme candy
 set clipboard=unnamed
 " Enhance command-line completion
 set wildmenu
@@ -32,7 +30,6 @@ set binary
 set noeol
 " Centralize backups, swapfiles and undo history
 set backupdir=~/.vim/backups
-set directory=~/.vim/swaps
 if exists("&undodir")
         set undodir=~/.vim/undo
 endif
