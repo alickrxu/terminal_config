@@ -1,5 +1,12 @@
 # Setup instructions
 
+## Provided Files
+```
+.zshrc - Includes env variables, powerlevel10k setup
+.vimrc - VIM setup, includes linenumbers and highlighting
+Arthur.itermcolors - My preferred iterm2 theme
+```
+
 ## Install brew on zsh:
 	
 Add Homebrew to your PATH in `~/.zprofile`:
@@ -7,12 +14,23 @@ Add Homebrew to your PATH in `~/.zprofile`:
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
-## Provided Files
+
+## Setup VIM
+### Install [Vundle (VIM package handler)](https://github.com/VundleVim/Vundle.vim)
 ```
-.zshrc - Includes env variables, powerlevel10k setup
-.vimrc - VIM setup, includes linenumbers and highlighting
-Arthur.itermcolors - My preferred iterm2 theme
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
+
+## Use .vimrc
+```
+mv .vimrc ~/
+```
+
+## Create /backups directory for Vim Swap files
+```
+mkdir ~/.vim/backups
+```
+More info [here](https://github.com/neovim/neovim/issues/3498)
 
 ## Packages
 
